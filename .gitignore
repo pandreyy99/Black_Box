@@ -1,0 +1,14 @@
+#ignoring pandas preprocessed dataset
+*.h5
+
+#ignore all py files exepts 
+.py
+!data_loader.py
+!main.py
+!verify.py
+
+#ignore Pycharm folders and data folder
+.idea/
+__pycache__/
+ml-unibuc-2019-24/
+venv/
